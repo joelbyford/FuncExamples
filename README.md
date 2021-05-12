@@ -1,5 +1,5 @@
 # FuncExamples
-Several example dotnet core and dotnet 5 examples of functions triggered based on EventHubs, REST and Timer events.  These examples are based heavily on existing Microsoft docs however simply consolidated into a single repo to ease sharing with customers.  
+Several dotnet core and dotnet 5 examples of functions triggered based on EventHubs, REST and Timer events.  These examples are based heavily on existing Microsoft docs however simply consolidated into a single repo to ease sharing with customers.  
 
 ## Prerequisites
 - **DotNet 5 SDK** - Have the [dotnet 5 SDK](https://dotnet.microsoft.com/download/dotnet/5.0) downloaded and installed
