@@ -3,6 +3,7 @@
     "Values": {
         "AzureWebJobsStorage": "UseDevelopmentStorage=true",
         "FUNCTIONS_WORKER_RUNTIME": "dotnet",
-        "ehConnection" : "Add Connection String for EventHubs here."
+        "ehConnection" : "Add Connection String for EventHubs here.",
+        "cdbConnection" : "Add Connection String for CosmosDB here."
     }
 }
