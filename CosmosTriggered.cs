@@ -14,7 +14,8 @@ namespace FuncExamples
             databaseName: "databaseName",
             collectionName: "collectionName",
             ConnectionStringSetting = "cdbConnection",
-            LeaseCollectionName = "leases")]IReadOnlyList<Document> input, ILogger log)
+            LeaseCollectionName = "leases", 
+            CreateLeaseCollectionIfNotExists = true)]IReadOnlyList<Document> input, ILogger log)
         {
             if (input != null && input.Count > 0)
             {
